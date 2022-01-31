@@ -1,0 +1,2 @@
+includeLibs.image_crop = EXT:image_crop/pi1/class.tx_imagecrop_pi1.php
+tt_content.image.20.1.stdWrap.postUserFunc = tx_imagecrop_pi1->main
