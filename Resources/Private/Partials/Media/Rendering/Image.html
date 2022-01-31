@@ -1,0 +1,39 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<f:if condition="{data.tx_imagecrop_crop}">
+    <f:then>
+        <f:switch expression="{data.tx_imagecrop_gravity}">
+            <f:case value="northwest">
+                <f:media class="image-embed-item" file="{file}" width="{data.imagewidth}c-100" height="{data.imageheight}c-100" alt="{file.alternative}" title="{file.title}"/>
+            </f:case>
+            <f:case value="north">
+                <f:media class="image-embed-item" file="{file}" width="{data.imagewidth}c" height="{data.imageheight}c-100" alt="{file.alternative}" title="{file.title}"/>
+            </f:case>
+            <f:case value="northeast">
+                <f:media class="image-embed-item" file="{file}" width="{data.imagewidth}c+100" height="{data.imageheight}c-100" alt="{file.alternative}" title="{file.title}"/>
+            </f:case>
+            <f:case value="west">
+                <f:media class="image-embed-item" file="{file}" width="{data.imagewidth}c-100" height="{data.imageheight}c" alt="{file.alternative}" title="{file.title}"/>
+            </f:case>
+            <f:case value="east">
+                <f:media class="image-embed-item" file="{file}" width="{data.imagewidth}c+100" height="{data.imageheight}c" alt="{file.alternative}" title="{file.title}"/>
+            </f:case>
+            <f:case value="southwest">
+                <f:media class="image-embed-item" file="{file}" width="{data.imagewidth}c+100" height="{data.imageheight}c+100" alt="{file.alternative}" title="{file.title}"/>
+            </f:case>
+            <f:case value="south">
+                <f:media class="image-embed-item" file="{file}" width="{data.imagewidth}c" height="{data.imageheight}c+100" alt="{file.alternative}" title="{file.title}"/>
+            </f:case>
+            <f:case value="southeast">
+                <f:media class="image-embed-item" file="{file}" width="{data.imagewidth}c+100" height="{data.imageheight}c+100" alt="{file.alternative}" title="{file.title}"/>
+            </f:case>
+            <f:defaultCase>
+                <f:media class="image-embed-item" file="{file}" width="{data.imagewidth}c" height="{data.imageheight}c" alt="{file.alternative}" title="{file.title}"/>
+            </f:defaultCase>
+        </f:switch>
+    </f:then>
+    <f:else>
+        <f:comment>Default from FluidStyledContent</f:comment>
+        <f:media class="image-embed-item" file="{file}" width="{dimensions.width}" height="{dimensions.height}" alt="{file.alternative}" title="{file.title}"/>
+    </f:else>
+</f:if>
+</html>

@@ -1,0 +1,5 @@
+lib.contentElement {
+    partialRootPaths {
+        20 = EXT:image_crop/Resources/Private/Partials/
+    }
+}

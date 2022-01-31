@@ -1,0 +1,15 @@
+{
+  "name": "websailor/image-cropping",
+  "type": "typo3-cms-extension",
+  "description": "Adds simple cropping options to CType textpic, image and textmedia.",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://extensions.typo3.org/extension/image_crop",
+   "require": {
+      "typo3/cms-core": "^9.5"
+   },
+   "extra": {
+      "typo3/cms": {
+         "extension-key": "image_crop"
+      }
+   }
+}

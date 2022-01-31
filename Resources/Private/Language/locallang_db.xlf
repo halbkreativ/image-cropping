@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.0" xmlns:t3="http://typo3.org/schemas/xliff">
+    <file source-language="en" datatype="plaintext" original="messages" date="2020-12-01T20:39:51Z" product-name="imagecrop">
+        <header/>
+        <body>
+            <trans-unit id="tt_content.tx_imagecrop_crop" xml:space="preserve">
+                <source>Cropping</source>
+            </trans-unit>
+            <trans-unit id="tt_content.tx_imagecrop_gravity" xml:space="preserve">
+                <source>Alignment for cropping</source>
+            </trans-unit>
+            <trans-unit id="tt_content.tx_imagecrop_gravity_northwest" xml:space="preserve">
+                <source>Top, Left</source>
+            </trans-unit>
+            <trans-unit id="tt_content.tx_imagecrop_gravity_north" xml:space="preserve">
+                <source>Top</source>
+            </trans-unit>
+            <trans-unit id="tt_content.tx_imagecrop_gravity_northeast" xml:space="preserve">
+                <source>Top, Right</source>
+            </trans-unit>
+            <trans-unit id="tt_content.tx_imagecrop_gravity_west" xml:space="preserve">
+                <source>Left</source>
+            </trans-unit>
+            <trans-unit id="tt_content.tx_imagecrop_gravity_center" xml:space="preserve">
+                <source>Center</source>
+            </trans-unit>
+            <trans-unit id="tt_content.tx_imagecrop_gravity_east" xml:space="preserve">
+                <source>Right</source>
+            </trans-unit>
+            <trans-unit id="tt_content.tx_imagecrop_gravity_southwest" xml:space="preserve">
+                <source>Bottom, Left</source>
+            </trans-unit>
+            <trans-unit id="tt_content.tx_imagecrop_gravity_south" xml:space="preserve">
+                <source>Bottom</source>
+            </trans-unit>
+            <trans-unit id="tt_content.tx_imagecrop_gravity_southeast" xml:space="preserve">
+                <source>Bottom, Right</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>
